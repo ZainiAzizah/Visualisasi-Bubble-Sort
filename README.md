@@ -25,27 +25,42 @@ Bubble Sort adalah algoritma pengurutan sederhana yang mengulang langkah-langkah
 ## Langkah-langkah Visualisasi
 
 1. **Awal**:
-   ![alt text](https://github.com/ZainiAzizah/gambar/blob/main/I%20data%20tidak%20urut%202024-06-12.png?raw=true)
+
+
+
+    ![alt text](https://github.com/ZainiAzizah/gambar/blob/main/I%20data%20tidak%20urut%202024-06-12.png?raw=true)
    - Daftar jarak yang tidak terurut: `[56, 12, 34, 9]`
    - Grafik menampilkan bar dengan panjang bervariasi sesuai dengan nilai jarak.
 
 3. **Iterasi 1 (Pass 1)**:
+ 
+
+
    ![alt text](https://github.com/ZainiAzizah/gambar/blob/main/Iterasi%201%202024-06-12.png?raw=true)
    - Membandingkan dan menukar elemen yang perlu diurutkan.
    - Array berubah menjadi `[12, 34, 9, 56]`.
 
 5. **Iterasi 2 (Pass 2)**:
-   ![alt text](https://github.com/ZainiAzizah/gambar/blob/main/Iterasi%202%202024-06-12.png?raw=true)
+
+
+
+    ![alt text](https://github.com/ZainiAzizah/gambar/blob/main/Iterasi%202%202024-06-12.png?raw=true)
    - Melanjutkan perbandingan dan pertukaran.
    - Array berubah menjadi `[12, 9, 34, 56]`.
 
 7. **Iterasi 3 (Pass 3)**:
-   ![alt text](https://github.com/ZainiAzizah/gambar/blob/main/Iterasi%203%202024-06-12.png?raw=true)
+
+
+
+    ![alt text](https://github.com/ZainiAzizah/gambar/blob/main/Iterasi%203%202024-06-12.png?raw=true)
    - Lanjutkan sampai semua elemen berada pada urutan yang benar.
    - Array berubah menjadi `[9, 12, 34, 56]`.
 
 9. **Iterasi 4 (Pass 4)**:
-    ![alt text](https://github.com/ZainiAzizah/gambar/blob/main/Iterasi%204%202024-06-12.png?raw=true)
+
+
+
+     ![alt text](https://github.com/ZainiAzizah/gambar/blob/main/Iterasi%204%202024-06-12.png?raw=true)
    - Tidak ada perubahan yang dilakukan karena array sudah terurut.
 
 11. **Array Akhir**:
