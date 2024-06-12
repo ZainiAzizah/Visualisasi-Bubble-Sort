@@ -25,42 +25,22 @@ Bubble Sort adalah algoritma pengurutan sederhana yang mengulang langkah-langkah
 ## Langkah-langkah Visualisasi
 
 1. **Awal**:
-
-
-
-    ![alt text](https://github.com/ZainiAzizah/gambar/blob/main/I%20data%20tidak%20urut%202024-06-12.png?raw=true)
    - Daftar jarak yang tidak terurut: `[56, 12, 34, 9]`
    - Grafik menampilkan bar dengan panjang bervariasi sesuai dengan nilai jarak.
 
 3. **Iterasi 1 (Pass 1)**:
- 
-
-
-   ![alt text](https://github.com/ZainiAzizah/gambar/blob/main/Iterasi%201%202024-06-12.png?raw=true)
    - Membandingkan dan menukar elemen yang perlu diurutkan.
    - Array berubah menjadi `[12, 34, 9, 56]`.
 
 5. **Iterasi 2 (Pass 2)**:
-
-
-
-    ![alt text](https://github.com/ZainiAzizah/gambar/blob/main/Iterasi%202%202024-06-12.png?raw=true)
    - Melanjutkan perbandingan dan pertukaran.
    - Array berubah menjadi `[12, 9, 34, 56]`.
 
 7. **Iterasi 3 (Pass 3)**:
-
-
-
-    ![alt text](https://github.com/ZainiAzizah/gambar/blob/main/Iterasi%203%202024-06-12.png?raw=true)
    - Lanjutkan sampai semua elemen berada pada urutan yang benar.
    - Array berubah menjadi `[9, 12, 34, 56]`.
 
 9. **Iterasi 4 (Pass 4)**:
-
-
-
-     ![alt text](https://github.com/ZainiAzizah/gambar/blob/main/Iterasi%204%202024-06-12.png?raw=true)
    - Tidak ada perubahan yang dilakukan karena array sudah terurut.
 
 11. **Array Akhir**:
@@ -69,28 +49,48 @@ Bubble Sort adalah algoritma pengurutan sederhana yang mengulang langkah-langkah
 ## Contoh Output dan Visualisasi
 
 ### Awal:
+
+
+
+![alt text](https://github.com/ZainiAzizah/gambar/blob/main/I%20data%20tidak%20urut%202024-06-12.png?raw=true)
 - Daftar tidak terurut: `[56, 12, 34, 9]`
 - Grafik menampilkan bar-bar sesuai dengan nilai jarak.
 
 ### Iterasi 1:
+ 
+
+
+![alt text](https://github.com/ZainiAzizah/gambar/blob/main/Iterasi%201%202024-06-12.png?raw=true)
 - Membandingkan 56 dan 12 → Tukar
 - Membandingkan 56 dan 34 → Tukar
 - Membandingkan 56 dan 9 → Tukar
 - Array: `[12, 34, 9, 56]`
 
 ### Iterasi 2:
+
+
+
+![alt text](https://github.com/ZainiAzizah/gambar/blob/main/Iterasi%202%202024-06-12.png?raw=true)
 - Membandingkan 12 dan 34 → Tidak Tukar
 - Membandingkan 34 dan 9 → Tukar
 - Membandingkan 34 dan 56 → Tidak Tukar
 - Array: `[12, 9, 34, 56]`
 
 ### Iterasi 3:
+
+
+
+![alt text](https://github.com/ZainiAzizah/gambar/blob/main/Iterasi%203%202024-06-12.png?raw=true)
 - Membandingkan 12 dan 9 → Tukar
 - Membandingkan 12 dan 34 → Tidak Tukar
 - Membandingkan 34 dan 56 → Tidak Tukar
 - Array: `[9, 12, 34, 56]`
 
 ### Iterasi 4:
+
+
+
+![alt text](https://github.com/ZainiAzizah/gambar/blob/main/Iterasi%204%202024-06-12.png?raw=true)
 - Membandingkan 9 dan 12 → Tidak Tukar
 - Membandingkan 12 dan 34 → Tidak Tukar
 - Membandingkan 34 dan 56 → Tidak Tukar
