@@ -91,6 +91,9 @@ Bubble Sort adalah algoritma pengurutan sederhana yang mengulang langkah-langkah
 
 
 ![alt text](https://github.com/ZainiAzizah/gambar/blob/main/Iterasi%204%202024-06-12.png?raw=true)
+
+
+Pada iterasi ini, tidak ada perubahan yang dilakukan karena array sudah terurut. Tapi untuk memastikan, Bubble Sort tetap akan melakukan satu iterasi terakhir:
 - Membandingkan 9 dan 12 → Tidak Tukar
 - Membandingkan 12 dan 34 → Tidak Tukar
 - Membandingkan 34 dan 56 → Tidak Tukar
